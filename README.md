@@ -1,3 +1,13 @@
+# Documentation
+
+The libraries are using the 'generic' as standard application, to test they features.
+
+# Avaliable Libraries
+
+- `reducers`- Library to handle states of any other library or project.
+- `api-wp`- Library to handle the management of data by Wordpress JSON API
+- `auth`- Library which provides a simple login with JWT authentication.
+
 # LibsWorkspace
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.4.
