@@ -2,7 +2,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
+    "outDir": "./projects/lib/src/out-tsc",
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
@@ -20,20 +20,13 @@
     ],
     "paths": {
       "reducers": [
-        "dist/reducers/reducers",
-        "dist/reducers"
+        "projects/reducers/src/"
       ],
       "auth": [
-        "dist/auth/auth",
-        "dist/auth"
-      ],
-      "wp-api": [
-        "dist/wp-api/wp-api",
-        "dist/wp-api"
+        "projects/auth/src/",
       ],
       "api-wp": [
-        "dist/api-wp/api-wp",
-        "dist/api-wp"
+        "projects/api-wp/src/",
       ]
     }
   },

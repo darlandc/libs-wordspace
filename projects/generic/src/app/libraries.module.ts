@@ -1,9 +1,10 @@
-import { ApiWpModule } from 'api-wp';
 import { NgModule } from '@angular/core';
-import { AuthModule } from 'auth';
-import { ReducersModule } from 'reducers';
 import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
+
+import { ApiWpModule } from 'api-wp';
+import { AuthModule } from 'auth';
+import { ReducersModule } from 'reducers';
 
 @NgModule({
   declarations: [],
