@@ -20,13 +20,20 @@
     ],
     "paths": {
       "reducers": [
-        "projects/reducers/src/"
+        "projects/reducers/src/",
+        "projects/reducers"
       ],
       "auth": [
         "projects/auth/src/",
+        "projects/auth"
       ],
       "api-wp": [
         "projects/api-wp/src/",
+        "projects/api-wp"
+      ],
+      "api-node": [
+        "projects/api-node/src",
+        "projects/api-node"
       ]
     }
   },

@@ -1,3 +1,4 @@
+// import { ComponentsModule } from './components/components.module';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
@@ -14,6 +15,7 @@ import { PagesModule } from './pages/pages.module';
     BrowserModule,
     AppRoutingModule,
     PagesModule,
+    // ComponentsModule,
     HttpClientModule
   ],
   exports: [

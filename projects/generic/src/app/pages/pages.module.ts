@@ -1,3 +1,4 @@
+
 import { LibrariesModule } from './../libraries.module';
 import { HomeComponent } from './home/home.component';
 import { NgModule } from '@angular/core';
@@ -9,7 +10,7 @@ import { CommonModule } from '@angular/common';
   ],
   imports: [
     CommonModule,
-    LibrariesModule
+    LibrariesModule,
   ]
 })
 export class PagesModule { }

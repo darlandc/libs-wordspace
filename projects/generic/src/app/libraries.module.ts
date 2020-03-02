@@ -1,3 +1,4 @@
+import { ApiNodeModule } from './../../../api-node/src/lib/api-node.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
@@ -15,7 +16,8 @@ import { ReducersModule } from 'reducers';
   exports: [
     ReducersModule,
     AuthModule,
-    ApiWpModule
+    ApiWpModule,
+    ApiNodeModule
   ]
 })
 export class LibrariesModule { }
